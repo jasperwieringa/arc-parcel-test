@@ -13,3 +13,6 @@ First make sure that [Parcel](https://parceljs.org/) is installed.
 
 Type `parcel index.html` in the console to run the Parcel server.
 Open [http://localhost:1234](http://localhost:1234) to view it in the browser.
+
+>Some components rely on assets and ARC needs to know where they're located. 
+Copy the `assets` folder from `@arc-web/components/dist` and place these in the `dist` output folder.
