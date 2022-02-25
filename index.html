@@ -9,7 +9,7 @@
         <arc-navbar slot="nav" logo="assets/arc-red.svg">
             <arc-button type="tab">Tab One</arc-button>
         </arc-navbar>
-        <arc-sidebar slot="side">
+        <arc-sidebar slot="side" title="Make a selection">
             <div style="padding: var(--arc-spacing-small)">Sidebar content</div>
         </arc-sidebar>
         <div style="padding: var(--arc-spacing-small)">
@@ -17,12 +17,6 @@
         </div>
     </arc-container>
 
-    <script type="module" src="index.js" data-arc="/"></script>
-    <script type="module">
-        import '@arc-web/components/dist/components/container/arc-container.js';
-        import '@arc-web/components/dist/components/navbar/arc-navbar.js';
-        import '@arc-web/components/dist/components/sidebar/arc-sidebar.js';
-        import '@arc-web/components/dist/components/button/arc-button.js';
-    </script>
+    <script type="module" src="index.js"></script>
 </body>
 </html>
